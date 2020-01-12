@@ -5,4 +5,6 @@ javascript: (function() {
     social[0].parentNode.removeChild(social[0]);
     var warta = document.getElementsByClassName("warta");
     warta[0].parentNode.removeChild(warta[0]);
+    var social2 = document.getElementsByClassName("idmuvi-social-share");
+    social2[0].parentNode.removeChild(social2[0]);
 })()
