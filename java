@@ -1,18 +1,8 @@
 javascript: (function() {
-    document.querySelector('footer').style = 'display: none';
-    var btm = document.getElementsByClassName('tags-btm');
-    if (btm.length > 0) {
-        btm[0].parentNode.removeChild(btm[3]);
-        btm[0].parentNode.removeChild(btm[3]);
-    }
-    var list = document.getElementsByClassName('adsatas');
-    if (list.length > 0) {
-        for (var i = list.length - 1; 0 <= i; i--)
-            if (list[i] && list[i].parentElement)
-        list[i].parentElement.removeChild(list[i]);
-    }
-    var atop = document.getElementsByClassName('ad-top');
-    if (atop.length > 0) {
-        atop[0].parentNode.removeChild(atop[0]);
-    }
+    var foter = document.getElementsByClassName("text-center site-footer");
+    foter[0].parentNode.parentNode.removeChild(foter[0].parentNode);
+    var social = document.getElementsByClassName("idmuvi-social-share");
+    social[0].parentNode.removeChild(social[0]);
+    var warta = document.getElementsByClassName("warta");
+    warta[0].parentNode.removeChild(warta[0]);
 })()
