@@ -1,6 +1,10 @@
 javascript: (function() {
     const elements = document.getElementsByClassName("mgbox");
     while (elements.length > 0) elements[0].remove();
+    var trade = document.getElementsByClassName('breadcrumbs');
+    trade[0].parentNode.removeChild(trade[0]);"
+    var entrh = document.getElementsByClassName('entry-header');
+    entrh[0].parentNode.removeChild(entrh[0]);
     var foter = document.getElementsByClassName("text-center site-footer");
     foter[0].parentNode.parentNode.removeChild(foter[0].parentNode);
     var social = document.getElementsByClassName("idmuvi-social-share");
